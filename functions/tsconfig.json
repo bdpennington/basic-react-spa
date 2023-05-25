@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "diagnostics": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types"],
+  },
+  "exclude": ["build/*", "test/*", "node_modules/*"],
+  "ts-node": {
+    "esm": true
+  }
+}
